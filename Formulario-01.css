@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-size: 20px;
     margin: 0;
@@ -16,12 +22,15 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 25%;
-    height: 35%;
+    min-width: 400px;
+    min-height: 400px;
+    width: 30%;
+    height: 40%;
     box-shadow: -1px -2px 9px 8px rgba(194, 157, 157, 0.74);
     -webkit-box-shadow: -1px -2px 9px 8px rgba(194, 157, 157, 0.74);
     -moz-box-shadow: -1px -2px 9px 8px rgba(194, 157, 157, 0.74);
     border-radius: 3px;
+    padding: 2px;
 }
 
 form {
@@ -30,7 +39,7 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 60%;
+    height: 80%;
     width: 100%;
 }
 
@@ -54,10 +63,11 @@ h1 {
     font-family: 'Fredoka', sans-serif;
     text-align: center;
     font-size: 1.5em;
+    font-weight: 100;
 }
 
 .datos {
-    height: 20%;
+    height: 18%;
     width: 90%;
     border: 1px solid rgb(156, 148, 148);
     border-radius: 5px;
@@ -65,8 +75,8 @@ h1 {
 }
 
 .next {
-    width: 35%;
-    height: 20%;
+    width: 25%;
+    height: 15%;
     font-size: 0.8em;
     outline: none;
     border-radius: 3px;
@@ -75,6 +85,7 @@ h1 {
     font-family: 'Fredoka', sans-serif;
     font-weight: 500;
     cursor: pointer;
+    margin: 10px;
     border: none;
 }
 
@@ -83,4 +94,14 @@ h1 {
     font-family: 'Fredoka', sans-serif;
     font-size: 1.2em;
     padding-left: 10px;
+}
+
+a {
+    width: 100%;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 0.8em;
+    font-weight: 100;
+    padding-left: 1.3em;
+    text-align: left;
+    text-decoration: none;
 }

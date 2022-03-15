@@ -80,3 +80,8 @@ label>input textarea {
     width: 30%;
     height: 30px;
 }
+
+a {
+    font-size: .9em;
+    text-decoration: none;
+}
