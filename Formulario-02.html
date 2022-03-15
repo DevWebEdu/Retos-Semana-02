@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Formulario-02.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Sign Up</h1>
+        <form action="">
+            <label for="First_name" required>
+                First Name
+                <input type="text" id="First_name" required>
+            </label>
+
+            <label for="Age">
+                Age
+                <input type="number" id="Age" min="1" max="120"   required>
+            </label>
+
+            <label for="Income">
+                Income
+                <input type="text" id="Income" required>
+            </label>
+
+            <label for="More_Info">
+                More Info
+                <textarea name="" id="More_Info" cols="20" rows="10" required>
+
+                </textarea>
+            </label>
+            <!-- Radio Buttons -->
+            <label>
+                Gender
+            </label>
+            <div class="Contendor_radios">
+                <label for="Male">
+                <input type="radio" name="Gender" id="Male">
+                Male
+                
+            </label>
+                <label for="Female">
+                <input type="radio" name="Gender" id="Female">
+                Female
+                
+            </label>
+
+                <label for="Trans">
+                <input type="radio" name="Gender" id="Trans">
+                Trans
+                
+            </label>
+            </div>
+
+            <!-- Selects -->
+
+            <label for="Select_Plan">
+                Plan
+                <select name="" id="">
+                    <option value="" hidden>Select Plan</option>
+                    <option value=""> One month</option>
+                    <option value=""> Six months</option>
+                    <option value=""> Annual</option>
+                </select>
+            </label>
+
+
+            <!-- checkbox -->
+            <label for="Subscribe">
+                
+                <input type="checkbox" name="" id="">
+                Subscribe to  Newsletter
+            </label>
+
+            <!-- Boton final -->
+            <input type="submit" value="Update">
+
+        </form>
+    </main>
+</body>
+
+</html>
